@@ -97,13 +97,13 @@ body::before{
 /* ESTILO FORMAL */
 .content-buttons a{
     text-decoration: none;
-    font-size: 15px;
-    letter-spacing: 1px;
+    font-size: 20px;   /* MÁS GRANDE */
+    letter-spacing: 2px;
+    font-weight: 600;
     color: #5a3e36;
-    padding: 6px 10px;
+    padding: 12px 20px;  /* MÁS ESPACIO */
     position: relative;
     transition: all 0.3s ease;
-    font-size: 25px;
 }
 
 /* Línea elegante */
@@ -111,9 +111,9 @@ body::before{
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -4px;
     width: 0%;
-    height: 1px;
+    height: 2px; /* más gruesa */
     background: #b08968;
     transition: width 0.4s ease;
 }
@@ -141,6 +141,7 @@ body::before{
 
     .content-buttons a{
         font-size: 18px;
+        padding: 10px 0;
     }
 
     
