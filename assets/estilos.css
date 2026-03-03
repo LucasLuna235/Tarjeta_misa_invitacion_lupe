@@ -109,6 +109,7 @@ body::before{
     padding: 20px 20px;  /* MÁS ESPACIO */
     position: relative;
     transition: all 0.3s ease;
+    border-radius: 15px;
 }
 
 /* Línea elegante */
