@@ -96,31 +96,22 @@ body::before{
 
 /* ESTILO FORMAL */
 .content-buttons a{
+    width: 200px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: -20px;
     text-decoration: none;
     font-size: 20px;   /* MÁS GRANDE */
     letter-spacing: 2px;
     font-weight: 600;
-    color: #5a3e36;
-    padding: 12px 20px;  /* MÁS ESPACIO */
+    background: #5a3e36;
+    color: #fff;
+    padding: 20px 20px;  /* MÁS ESPACIO */
     position: relative;
     transition: all 0.3s ease;
 }
 
 /* Línea elegante */
-.content-buttons a::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    width: 0%;
-    height: 2px; /* más gruesa */
-    background: #b08968;
-    transition: width 0.4s ease;
-}
-
-.content-buttons a:hover::after{
-    width: 100%;
-}
 
 .content-buttons a:hover{
     color: #7f5539;
@@ -136,10 +127,10 @@ body::before{
     .content-buttons{
         flex-direction: column;
         gap: 8px;
-        bottom: 8%;
     }
 
     .content-buttons a{
+        border-radius: 15px;
         font-size: 18px;
         padding: 10px 0;
     }
